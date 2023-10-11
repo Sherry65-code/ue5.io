@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unreal Engine 5 - Features</title>
+  </head>
+  <body>
+    <div id="splash" class="center-flex">
+      <img src="images/favicon.png" height="100px" alt="" class="loading" />
+    </div>
+    <div id="header">
+      <img src="images/logo.svg" height="50px" alt="" class="logo" />
+      <button id="menu-button">Menu</button>
+    </div>
+
+    <div id="menu">
+      <button id="mb1" onclick="window.open('index.html', '_self')">
+        Home
+      </button>
+      <button id="mb2" onclick="window.open('products.html', '_self')">
+        Features
+      </button>
+      <button id="mb3" onclick="window.open('download_page.html', '_self')">
+        Download
+      </button>
+    </div>
+
+    <div class="slide pro1">
+      <div class="large">Better UI</div>
+      <br /><br />
+      <div class="feature">
+        Unreal Engine has also had a facelift. The previous user interface of UE
+        4 is also quite easy on the eyes. However, the interface is also a bit
+        classic because it was released 10 years ago. Now with UE5’s release,
+        the new editor is smart, sleek and Functions and features are far easier
+        to use; the introduction of a Create tab, more support for plugins
+        (especially Quixel and Substance), a more streamline launcher and an
+        improved content browser system.
+      </div>
+
+      <div class="ue4ui"></div>
+      <div class="ue5ui"></div>
+    </div>
+
+    <div class="slide pro1" style="background-image: url('images/additonal-data/global_illumination_2.jpeg');">
+      <div class="large">Better Lighting</div>
+      <br /><br />
+      <div class="feature">
+        In Unreal Engine 5, lighting is dynamic (or real time) by default. In UE4, a similar feature, raytracing, could be integrated, but only with a powerful enough graphics card and processor. With Lumen, all lighting is automatically real time and optimized.
+For example ray tracing to work in UE4. Ray tracing setup requires changing project settings, lighting expertise. Moreover, manually adding lighting to a scene is simply one step in the process of creating realistic lighting, rendering ray tracing in UE4 unusable for video games due to its high CPU cost. On the other hand, in UE5, Lumen can operate on a new PC. You can use UE5 for ray tracing and real time, highly realistic lighting.
+      </div>
+
+      <div class="ue4ui"></div>
+      <div class="ue5ui"></div>
+    </div>
+
+    <div class="slide pro1" style="background-image: url('images/additonal-data/26.png');">
+      <div class="large">Better Modelling tools</div>
+      <br /><br />
+      <div class="feature">
+        Finally, modeling, sculpting and UV unwrap tools have now been added. The Modelling Mode in Unreal Engine 5 enables fast deformation and customization using a wide range of transformers and tools. In addition, users can also use the Landscape, Foliage, Mesh Paint, and Animation modes in addition to modeling, as well as a brush editing mode created just for the Mesh Paint function.
+      </div>
+
+      <div class="ue4ui"></div>
+      <div class="ue5ui"></div>
+    </div>
+
+    <div class="copyrights">
+      <hr />
+      <br /><br />
+      <div class="footerleft">
+        © 2004-2023, Epic Games, Inc. All rights reserved. Unreal and its logo
+        are Epic’s trademarks or registered trademarks in the US and elsewhere.
+      </div>
+      <div class="footerright">
+        <img src="images/unreal.svg" onclick="window.open('https://www.unrealengine.com/en-US/?lang=en-US')" class="ue5" alt="">
+        <img src="images/epic games.svg" onclick="window.open('https://www.epicgames.com/en-US/?lang=en-US')" class="epic" alt="">
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
